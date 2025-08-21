@@ -1,5 +1,11 @@
 public class Fibonacci {
 
+    /**
+     * Returns the nth term in the Fibonacci sequence using recursion.
+     *
+     * @param n the index of the term to calculate (must be >= 0)
+     * @return the nth Fibonacci number
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
